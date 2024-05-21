@@ -1,0 +1,66 @@
+body {
+    background-color: rgb(161, 197, 218);
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+header,
+footer {
+    color: rgb(17, 17, 17);
+    background: rgb(86, 130, 151);
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    background-color: rgb(214, 130, 27);
+    padding: 5px 0;
+}
+
+nav a {
+    padding: 5px;
+    transition: 1s;
+}
+
+nav a:hover {
+    background-color: rgb(7, 79, 107);
+    color: white;
+}
+
+main {
+    background-color: rgb(208, 230, 225);
+    padding: 10px;
+}
+
+footer {
+    color: black;
+}
+
+img {
+    float: left;
+    margin-right: 10px;
+}
+
+main div {
+    display: flex;
+}
+
+main p {
+    margin-top: 0;
+}
+
+#error {
+    color: rgb(133, 41, 41);
+}
+#error-name {
+    color: rgb(133, 41, 41);
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Калькулятор</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container"></div>
+        <header><h2>Калькулятор</h2></header>
+        <nav>
+            <a href="index.html">Главная</a>
+            <a href="chat.html">Чат</a>
+            <a href="calс.html">Калькулятор</a>
+        </nav>
+        <main>
+
+        <h3>Простой калькулятор</h3>
+        <p>Простой калькулятор принимает выполняет действия +, -, *, /</p>
+        <input id="num1"/>
+
+        <div id="operator_btns">
+            <button id="plus" class="operator" onclick="op='+'">+</button>
+            <button id="minus" class="operator" onclick="op='-'">-</button>
+            <button id="times" class="operator" onclick="op='*'">x</button>
+            <button id="divide" class="operator" onclick="op='/'">:</button>
+        </div>
+
+        <input id="num2"/>
+        <br>
+        <button onclick="func()">равняется...</button>
+        <br>
+        <input type="text" readonly placeholder="" id="result">
+
+        <script src="./js/calc.js"></script>
+    </div>
+    </main>
+
+
+    <footer>
+        ©2023
+    </footer>
+
+    </div>
+
+</body>
+</html>
